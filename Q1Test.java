@@ -72,7 +72,7 @@ public class Q1Test {
           String[] trav3 = traversal3.split("-");
 
           if (trav1.length != trav2.length || trav1.length != trav3.length) {
-               return "Invalid traversals.";
+               return "Invalid traversals";
           }
 
           if (checkTraversals(trav1, trav2, trav3) && checkInorder(trav2)) {
@@ -89,7 +89,7 @@ public class Q1Test {
                return "Traversal 1 - Postorder, Traversal 2 - Inorder, Traversal 3 - Preorder";
           }
 
-          return "Invalid traversals.";
+          return "Invalid traversals";
      }
 
      public static boolean checkTraversals(String[] pre, String[] in, String[] post) {
